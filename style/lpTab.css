@@ -1,0 +1,72 @@
+.lp-tabs{
+    padding: 0px;
+    
+}
+
+.lp-tabs .lp-tabs-titles{
+    background-color: #ffcc00;
+    color:red;
+    font-size: 16px;
+    position: relative;
+}
+.lp-tabs .lp-tabs-titles ul{
+    padding: 0;
+    margin: 0 0 0 0;
+    text-align: center;
+}
+.lp-tabs-content{
+    position: relative;
+}
+.lp-tabs .lp-tabs-titles ul li{
+    display: inline-block;
+    margin-left: 30px;
+    cursor: pointer;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    transition: all .25s;
+}
+
+.lp-tabs .lp-tabs-titles ul li:hover{
+    border-bottom: 5px solid rgba(255, 0, 0, 0.288);
+}
+.lp-tabs .lp-tabs-titles ul li.active{
+    border-bottom: 5px solid red;
+}
+.lp-tabs .lp-tabs-titles ul::before{
+    content: url(/img/dhl_logo.png);
+    position: absolute;
+    top: 50%;
+    left: 11%;
+    transform: translate(0,-50%);
+
+}
+.lp-tabs .lp-tabs-titles ul::after{
+    content: "";
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background: red;
+    background-image: url(/img/search.svg);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+    position: absolute;
+    top: 50%;
+    right: 11%;
+    transform: translate(0,-50%);
+    cursor: pointer;
+}
+.lp-tabs .lp-tabs-content .lp-tab{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    display: none;
+}
+.lp-tabs-content{
+    height: calc(100vh - 116px);
+    background-image: url(/img/sld/Layer\ 3.png);
+    background-size: cover;
+    max-height: 1000px;
+}
