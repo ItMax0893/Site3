@@ -40,11 +40,10 @@ li{
 .lp-slider{
     width: 100%;
     max-width: 2000px;
-    height: 100vh;  
     max-height: 1000px;  
 }
 .slide{
-    height: calc(100vh - 116px);
+    height: 800px;
     max-height: 1000px;
 }
 .slide{
@@ -682,3 +681,6 @@ font-size: 18px;
 .footer-lists:last-of-type .list--red .list__pointer:hover{
     color: rgb(6, 6, 253);
 }
+
+
+

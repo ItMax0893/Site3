@@ -1,6 +1,5 @@
 .lp-tabs{
     padding: 0px;
-    
 }
 
 .lp-tabs .lp-tabs-titles{
@@ -65,7 +64,7 @@
     display: none;
 }
 .lp-tabs-content{
-    height: calc(100vh - 116px);
+    height:800px;
     background-image: url(/img/sld/Layer\ 3.png);
     background-size: cover;
     max-height: 1000px;
